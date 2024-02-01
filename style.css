@@ -78,13 +78,25 @@ img {
   }
 
   .choice {
-    height: 120px;
-    width: 130px;
+    height: 125px;
+    width: 125px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+  }
+
+  .choice:hover {
+    cursor: pointer;
+    background-color: #081b31;
+  }
+  
+  img {
+    height: 115px;
+    width: 115px;
+    object-fit: cover;
+    border-radius: 50%;
   }
 
   .score-board {
